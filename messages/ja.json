@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "QuickChef",
+    "description": "家にある食材から、30分以内のレシピを提案します。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "logout": "ログアウト",
+    "language": "言語"
+  },
+  "home": {
+    "heroTitle": "手元の食材で、今日の一品を。",
+    "heroSubtitle": "AIが30分以内のレシピを5つ提案。買い物リストや献立もまとめてサポート。",
+    "ctaDashboard": "はじめる",
+    "ctaLogin": "ログイン",
+    "featureAuth": "アカウントでお気に入り・献立を保存",
+    "featureFast": "調理29分以内に最適化",
+    "featurePlan": "週の献立とまとめ買いリスト"
+  },
+  "auth": {
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "loginTitle": "ログイン",
+    "signupTitle": "アカウント作成",
+    "forgotTitle": "パスワード再設定",
+    "loginSubmit": "ログイン",
+    "signupSubmit": "登録する",
+    "forgotSubmit": "再設定メールを送る",
+    "noAccount": "はじめての方は",
+    "hasAccount": "すでにアカウントをお持ちの方",
+    "signupLink": "新規登録",
+    "loginLink": "ログインへ",
+    "forgotLink": "パスワードをお忘れですか？"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "tabGenerate": "レシピ生成",
+    "tabFavorites": "お気に入り",
+    "tabMeal": "献立",
+    "tabPresets": "食材プリセット",
+    "tabProfile": "プロフィール",
+    "ingredientsLabel": "手持ちの食材",
+    "ingredientsHint": "カンマ区切り、または1行に1つ",
+    "dietLabel": "食事制限",
+    "customDiet": "その他の制限",
+    "generate": "レシピを生成",
+    "generating": "生成中…",
+    "servings": "人前",
+    "minutes": "分",
+    "difficulty": "難易度",
+    "missing": "足りない可能性",
+    "saveFavorite": "お気に入りに保存",
+    "cook": "調理モード",
+    "shopping": "買い物リスト",
+    "collection": "コレクション",
+    "notes": "メモ",
+    "weekStart": "週の開始日",
+    "savePlan": "献立を保存",
+    "planShopping": "週の買い物リスト",
+    "presetName": "プリセット名",
+    "savePreset": "プリセットを保存",
+    "loadPreset": "読み込む",
+    "deletePreset": "削除",
+    "displayName": "表示名",
+    "skill": "調理スキル",
+    "saveProfile": "保存",
+    "collectionsNew": "新しいコレクション"
+  },
+  "cook": {
+    "step": "ステップ",
+    "prev": "戻る",
+    "next": "次へ",
+    "startTimer": "タイマー開始",
+    "stopTimer": "停止",
+    "done": "完了"
+  },
+  "difficulty": {
+    "easy": "かんたん",
+    "medium": "ふつう",
+    "hard": "本格"
+  },
+  "errors": {
+    "generic": "エラーが発生しました。",
+    "unauthorized": "ログインが必要です。"
+  }
+}

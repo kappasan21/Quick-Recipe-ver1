@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "QuickChef",
+    "description": "Turn what you have at home into quick recipes under 30 minutes."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "language": "Language"
+  },
+  "home": {
+    "heroTitle": "Cook fast with what you have.",
+    "heroSubtitle": "AI suggests 5 recipes under 30 minutes—plus shopping lists and weekly planning.",
+    "ctaDashboard": "Get started",
+    "ctaLogin": "Log in",
+    "featureAuth": "Save favorites and meal plans",
+    "featureFast": "Optimized for under 30 minutes",
+    "featurePlan": "Weekly plan and consolidated shopping"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "loginTitle": "Log in",
+    "signupTitle": "Create account",
+    "forgotTitle": "Reset password",
+    "loginSubmit": "Log in",
+    "signupSubmit": "Sign up",
+    "forgotSubmit": "Send reset email",
+    "noAccount": "New here?",
+    "hasAccount": "Already have an account?",
+    "signupLink": "Sign up",
+    "loginLink": "Back to log in",
+    "forgotLink": "Forgot password?"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "tabGenerate": "Generate",
+    "tabFavorites": "Favorites",
+    "tabMeal": "Meal plan",
+    "tabPresets": "Presets",
+    "tabProfile": "Profile",
+    "ingredientsLabel": "Ingredients on hand",
+    "ingredientsHint": "Comma-separated or one per line",
+    "dietLabel": "Dietary filters",
+    "customDiet": "Other restrictions",
+    "generate": "Generate recipes",
+    "generating": "Generating…",
+    "servings": "servings",
+    "minutes": "min",
+    "difficulty": "Difficulty",
+    "missing": "Likely missing",
+    "saveFavorite": "Save to favorites",
+    "cook": "Cooking mode",
+    "shopping": "Shopping list",
+    "collection": "Collection",
+    "notes": "Notes",
+    "weekStart": "Week starts",
+    "savePlan": "Save meal plan",
+    "planShopping": "Weekly shopping list",
+    "presetName": "Preset name",
+    "savePreset": "Save preset",
+    "loadPreset": "Load",
+    "deletePreset": "Delete",
+    "displayName": "Display name",
+    "skill": "Cooking skill",
+    "saveProfile": "Save",
+    "collectionsNew": "New collection"
+  },
+  "cook": {
+    "step": "Step",
+    "prev": "Back",
+    "next": "Next",
+    "startTimer": "Start timer",
+    "stopTimer": "Stop",
+    "done": "Done"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "errors": {
+    "generic": "Something went wrong.",
+    "unauthorized": "Please sign in."
+  }
+}
