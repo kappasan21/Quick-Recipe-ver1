@@ -20,23 +20,31 @@ export function SignupForm() {
     e.preventDefault();
     setLoading(true);
     const supabase = createClient();
-    const appUrl =
-      process.env.NEXT_PUBLIC_APP_URL ||
-      (typeof window !== "undefined" ? window.location.origin : "");
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        emailRedirectTo: `${appUrl}/auth/callback`,
-      },
-    });
-    setLoading(false);
-    if (error) {
-      toast.error(error.message);
-      return;
+    try {
+      const appUrl =
+        process.env.NEXT_PUBLIC_APP_URL ||
+        (typeof window !== "undefined" ? window.location.origin : "");
+
+      const emailRedirectTo = new URL("/auth/callback", appUrl).toString();
+
+      const { error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: { emailRedirectTo },
+      });
+
+      if (error) {
+        toast.error(error.message);
+        return;
+      }
+
+      toast.success("Check your email to confirm.");
+      router.push("/login");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : "Signup failed");
+    } finally {
+      setLoading(false);
     }
-    toast.success("Check your email to confirm.");
-    router.push("/login");
   }
 
   return (
